@@ -1,0 +1,313 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+body{text-align: center; font-family: 'Shadows Into Light', cursive; font-size: 30px;}
+/*!overflow: hidden;*/
+h2{
+font-size: 1.5em;
+}
+
+
+.tamanhoIm{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+.aimagens{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 170px;
+    
+}
+
+.social {
+    position: relative;
+    height: 0.5em;
+    width: 13.5em;
+    margin: 150px 450px;
+}
+
+.social span {
+    display: block;
+    height: 4em;
+    line-height: 4em;
+    margin: -2.2em;
+    position: fixed;
+    -webkit-transition: -webkit-transform .7s;
+    -moz-transition: -moz-transform .7s;
+    -ms-transition: -ms-transform .7s;
+    -o-transition: -o-transform .7s;
+    transition: transform .7s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-align: center;
+    width: 4em;
+
+}
+
+.social a {
+    color: #fffdf0;
+    display: block;
+    height: 4em;
+    line-height: 6em;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 4em; 
+  
+}
+
+.social span:hover {
+  -webkit-transform: scale(1.3,1.3) rotate(45deg);
+    -moz-transform: scale(1.3,1.3) rotate(45deg);
+  -ms-transform: scale(1.3,1.3) rotate(45deg);
+    -o-transform: scale(1.3,1.3) rotate(45deg);
+  transform: scale(1.3,1.3) rotate(45deg);
+}
+
+.facebook {
+    background: #155b9d;
+    left: 0;
+    top: 50%;
+}
+
+.ladoR {
+    background: gold;
+    right: 0;
+    top: 50%;
+}
+
+.twitter {
+    background: #1a9ec4;
+    bottom: 0;
+    left: 25%;
+}
+.facebook2 {
+    background: #155b9d;
+    left: 50%;
+    top: 0%;
+}
+
+.twitter2 {
+    background: #b1fb40;
+    bottom: 0;
+    left: 25%;
+}
+
+.pinterest {
+    background: #e11a30;
+    left: 50%;
+    top: 0%;
+}
+.behance {
+    background: #eb1708;
+    bottom: 0;
+    left: 75%;
+}
+.behance2 {
+    background: #eb1708;
+    top: 0%;
+    left: 50%;
+}
+.behance3 {
+    background: #5b2217;
+    bottom: 0;
+    left: 75%;
+}
+
+.shape{	
+	border-style: solid; border-width: 0 70px 40px 0; float:right; height: 0px; width: 0px;
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	transform:rotate(360deg);
+}
+.offer{
+	background:#fff; border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+}
+.offer-radius{
+	border-radius:7px;
+}
+.offer-danger {	border-color: #d9534f; }
+.offer-danger .shape{
+	border-color: transparent #d9534f transparent transparent;
+	border-color: rgba(255,255,255,0) #d9534f rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-success {	border-color: #5cb85c; width: 70%;}
+.offer-success .shape{
+	border-color: transparent #5cb85c transparent transparent;
+	border-color: rgba(255,255,255,0) #5cb85c rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-default {	border-color: #999999; }
+.offer-default .shape{
+	border-color: transparent #999999 transparent transparent;
+	border-color: rgba(255,255,255,0) #999999 rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-primary {	border-color: #428bca; }
+.offer-primary .shape{
+	border-color: transparent #428bca transparent transparent;
+	border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-info {	border-color: #5bc0de; }
+.offer-info .shape{
+	border-color: transparent #5bc0de transparent transparent;
+	border-color: rgba(255,255,255,0) #5bc0de rgba(255,255,255,0) rgba(255,255,255,0);
+}
+.offer-warning {	border-color: #f0ad4e; }
+.offer-warning .shape{
+	border-color: transparent #f0ad4e transparent transparent;
+	border-color: rgba(255,255,255,0) #f0ad4e rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+.shape-text{
+	color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-o-transform: rotate(360deg);  /* Opera 10.5 */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	transform:rotate(30deg);
+}	
+.offer-content{
+	padding:0 20px 10px;
+}
+.centerT{
+    position: center;
+    margin: auto;
+    margin-top: 5%; 
+}
+
+#retangulo{
+    width: 98%;
+    margin: auto;
+}
+
+.tt{
+    float: left;
+}
+/*modal questao correta*/
+#Corretoo{
+    color: green;
+    font-size:14px;
+    font-weight:bold;
+}
+/*modal questao errada*/
+ #Errad{
+    color: red;
+    font-size:12px;
+    font-weight:bold;
+ }
+ /*!aliamneto alternativa;*/
+.aliAlter{
+    position: center;
+    float: left;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.vertical {
+  display: inline-block;
+  width: 10%;
+  height:20px;
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+.vertical {
+  box-shadow: inset 0px 4px 6px #ccc;
+}
+
+#myprogress{
+    width: 7%; 
+    margin: auto;
+    float: left;
+}
+
+#cont{
+    margin: auto;
+    margin-top: 2%;
+}
+
+/* PARTE ARTHUR */
+
+#index-h2{
+    text-shadow: 10px 10px 10px #807d7d;
+}
+
+#barra{
+    width: 0%;
+}
+
+.botao{
+  margin: auto
+}
+
+.botao button{
+  margin: 10px;
+}
+
+#barrinha{
+  width: 70%;
+}
+
+#test{
+  display: none;
+}
+
+.acertos{
+  float: right; margin-top: 10%;
+}
+
+#acer{
+  color: green;
+}
+
+#erros{
+  color: red;
+}
+
+.tamanhoIm{
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
